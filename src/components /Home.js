@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Video from "../video/video.mp4";
 
-const Container = styled.div`
-  padding-top: 0;
-`;
+const Container = styled.div``;
 
 const styles = {
   video: {

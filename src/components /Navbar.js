@@ -5,12 +5,13 @@ import { Link } from "react-router-dom";
 const Container = styled.div`
   display: flex;
   width: 100vw;
+  background-color: #d3d3d3;
 `;
 
 const Left = styled.div`
   height: 90px;
   width: 50%;
-  background-color: red;
+  background-color: #d3d3d3;
   display: flex;
   padding-left: 20px;
 `;
@@ -18,7 +19,7 @@ const Left = styled.div`
 const Right = styled.div`
   height: 90px;
   width: 50%;
-  background-color: pink;
+  background-color: #d3d3d3;
   display: flex;
 `;
 
@@ -32,7 +33,9 @@ export const Navbar = () => {
         <Right>
           <ul>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <Link className="Link-Styles" to="/Contact">
+                Contact
+              </Link>
             </li>
             <li>
               <Link to="/Videos">Videos</Link>
