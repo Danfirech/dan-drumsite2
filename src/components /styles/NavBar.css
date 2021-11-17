@@ -15,9 +15,10 @@
 .navbar-right a {
   text-decoration: none;
   padding: 10px;
-  color: #fff;
+  color: black;
   font-family: Arial;
   font-weight: 900;
+  font-size: x-large;
 }
 
 .navbar-right a:hover {
@@ -29,7 +30,7 @@
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 .video-container {

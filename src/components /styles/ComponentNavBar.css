@@ -5,7 +5,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .navbar-right {
@@ -16,9 +16,10 @@
 .navbar-right a {
   text-decoration: none;
   padding: 10px;
-  color: #fff;
+  color: black;
   font-family: Arial;
   font-weight: 900;
+  font-size: x-large;
 }
 
 .navbar-right a:hover {
@@ -30,7 +31,7 @@
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 .video-container {

@@ -1,0 +1,16 @@
+.video-container-about {
+  z-index: 100;
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+h1 {
+  padding-right: 100px;
+  font-size: 20px;
+  padding-top: 220px;
+  font-family: "Cormorant", serif;
+}

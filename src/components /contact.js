@@ -2,29 +2,32 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
 import Girl from "../Image/Girl.png";
+import "./styles/Contact.css";
 
 const Container = styled.div`
-  height: 100%;
-  width: 100%;
-  background-color: red;
-  position: absolute;
+  width: 100vw;
+  display: flex;
+  background-color: #d3d3d3;
 `;
 
 const Left = styled.div`
-  height: 100%;
+  height: 100vh;
   width: 50%;
-  background-color: blue;
+  background-color: #d3d3d3;
+  /* position: absolute; */
 `;
 
 const Right = styled.div`
   height: 100%;
   width: 50%;
-  background-color: Purple;
-  position: absolute;
+  /* position: absolute; */
 `;
 
 const Image = styled.img`
   position: absolute;
+  height: 80%;
+  padding-top: 120px;
+  padding-left: 80px;
 `;
 
 const contact = () => {
@@ -36,9 +39,16 @@ const contact = () => {
       <div>
         <Container>
           <Left>
-            <Image src={Girl} />
+            <div>
+              <h1 class="ContactText">
+                Daniel Possehl <br /> DanielPossehl@hotmail.com <br />
+                616-821-0139
+              </h1>
+            </div>
           </Left>
-          <Right></Right>
+          <Right>
+            <Image src={Girl} />
+          </Right>
         </Container>
       </div>
     </>
