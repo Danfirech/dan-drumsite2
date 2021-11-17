@@ -17,7 +17,7 @@
   text-decoration: none;
   padding: 10px;
   color: black;
-  font-family: Arial;
+  font-family: "Cormorant", serif;
   font-weight: 900;
   font-size: x-large;
 }
@@ -27,7 +27,7 @@
 }
 .navbar-logo {
   padding-left: 10%;
-  font-family: Arial;
+  font-family: "Cormorant", serif;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
