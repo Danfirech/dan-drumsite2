@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 const Container = styled.div`
   display: flex;
   width: 100vw;
-  background-color: #d3d3d3;
+  background-color: none;
 `;
 
 const Left = styled.div`
   height: 90px;
   width: 50%;
-  background-color: #d3d3d3;
+  background-color: none;
   display: flex;
   padding-left: 20px;
 `;
@@ -19,7 +19,7 @@ const Left = styled.div`
 const Right = styled.div`
   height: 90px;
   width: 50%;
-  background-color: #d3d3d3;
+  background-color: none;
   display: flex;
 `;
 
