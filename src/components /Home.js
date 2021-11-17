@@ -1,27 +1,33 @@
 import React from "react";
-import styled from "styled-components";
+import "./styles/NavBar.css";
+import { Link } from "react-router-dom";
 import Video from "../video/video.mp4";
 
-const Container = styled.div``;
-
-const styles = {
-  video: {
-    height: "100%",
-    width: "100%",
-    padding: "0",
-  },
-};
-
-const home = () => {
+export const Home = () => {
   return (
     <div>
-      <Container>
-        <video style={styles.video} autoPlay loop muted>
-          <source src={Video} type="video/mp4" />
-        </video>
-      </Container>
+      <header>
+        <div class="header">
+          <nav class="navigation">
+            <Link className="navbar-logo" to="/">
+              Daniel Possehl
+            </Link>
+            <div class="navbar-right">
+              <Link to="/About">About</Link>
+              <Link to="/Videos">Videos</Link>
+              <Link to="/Contact">Contact</Link>
+            </div>
+          </nav>
+
+          <div class="video-container">
+            <video autoPlay loop muted>
+              <source src={Video} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </header>
     </div>
   );
 };
 
-export default home;
+export default Home;

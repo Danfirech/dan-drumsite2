@@ -1,51 +1,29 @@
 import React from "react";
+import "./styles/NavBar.css";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const Container = styled.div`
-  display: flex;
-  width: 100vw;
-  background-color: none;
-`;
+// const Container = styled.div`
+//   height: 50px;
+//   width: 100%;
+//   background-color: red;
+// `;
 
-const Left = styled.div`
-  height: 90px;
-  width: 50%;
-  background-color: none;
-  display: flex;
-  padding-left: 20px;
-`;
-
-const Right = styled.div`
-  height: 90px;
-  width: 50%;
-  background-color: none;
-  display: flex;
-`;
-
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div>
-      <Container>
-        <Left>
-          <Link to="/">Dan Possehl</Link>
-        </Left>
-        <Right>
-          <ul>
-            <li>
-              <Link className="Link-Styles" to="/Contact">
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link to="/Videos">Videos</Link>
-            </li>
-            <li>
-              <Link to="/About">About</Link>
-            </li>
-          </ul>
-        </Right>
-      </Container>
+      <nav class="ComponentNavigation">
+        <Link className="navbar-logo" to="/">
+          Daniel Possehl
+        </Link>
+        <div class="navbar-right">
+          <Link to="/About">About</Link>
+          <Link to="/Videos">Videos</Link>
+          <Link to="/Contact">Contact</Link>
+        </div>
+      </nav>
     </div>
   );
 };
+
+export default Navbar;

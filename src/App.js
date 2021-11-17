@@ -9,7 +9,6 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Videos" element={<Videos />} />
