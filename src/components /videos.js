@@ -5,28 +5,28 @@ import Golf from "../video/GolfVideo.mp4";
 import "./styles/Videos.css";
 
 const Container = styled.div`
-  height: 2000px;
+  height: 2700px;
   width: 100vw;
 `;
 
 const Top = styled.div`
   width: 100vw;
   background-color: pink;
-  height: 666px;
+  height: 900px;
   background-color: #d3d3d3;
 `;
 
 const Middle = styled.div`
   width: 100vw;
   background-color: green;
-  height: 666px;
+  height: 900px;
   background-color: #d3d3d3;
 `;
 
 const Bottom = styled.div`
   width: 100vw;
   background-color: greenyellow;
-  height: 666px;
+  height: 900px;
   background-color: #d3d3d3;
 `;
 

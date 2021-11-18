@@ -1,10 +1,10 @@
 .video-container-Golf {
   z-index: 999999;
-  width: 33%;
-  height: 500px;
+  width: 64%;
+  height: 600px;
   display: flex;
-  padding-left: 33%;
-  padding-top: 90px;
+  padding-left: 18%;
+  padding-top: 190px;
 }
 
 .video-alignment {
