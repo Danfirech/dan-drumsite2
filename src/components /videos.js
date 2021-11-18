@@ -13,18 +13,21 @@ const Top = styled.div`
   width: 100vw;
   background-color: pink;
   height: 666px;
+  background-color: #d3d3d3;
 `;
 
 const Middle = styled.div`
   width: 100vw;
   background-color: green;
   height: 666px;
+  background-color: #d3d3d3;
 `;
 
 const Bottom = styled.div`
   width: 100vw;
   background-color: greenyellow;
   height: 666px;
+  background-color: #d3d3d3;
 `;
 
 const videos = () => {
@@ -36,14 +39,20 @@ const videos = () => {
       <div>
         <Container>
           <Top>
-            <div>
-              <video class="video-container-Golf" autoPlay loop muted>
-                <source src={Golf} type="GolfVideo/mp4" />
-              </video>
-            </div>
+            <video class="video-container-Golf" controls>
+              <source src={Golf} type="Video/mp4" />
+            </video>
           </Top>
-          <Middle />
-          <Bottom />
+          <Middle>
+            <video class="video-container-Golf" controls>
+              <source src={Golf} type="Video/mp4" />
+            </video>
+          </Middle>
+          <Bottom>
+            <video class="video-container-Golf" controls>
+              <source src={Golf} type="Video/mp4" />
+            </video>
+          </Bottom>
         </Container>
       </div>
     </>
