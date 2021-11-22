@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import Golf from "../video/GolfVideo.mp4";
+import Golf from "../video/Danvid.mp4";
 import "./styles/Videos.css";
 
 const Container = styled.div`

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import "./styles/ComponentNavBar.css";
 import styled from "styled-components";
-import Video from "../video/video.mp4";
+import Video from "../video/Danvid.mp4";
 import "./styles/AboutMe.css";
 
 const Container = styled.div`

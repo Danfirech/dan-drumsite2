@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutMe from "./components /AboutMe";
 import Home from "./components /Home";
-import Contact from "./components /Contact";
-import Videos from "./components /Videos";
+import Contact from "./components /contact";
+import Videos from "./components /videos";
 
 function App() {
   return (
