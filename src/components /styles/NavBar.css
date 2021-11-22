@@ -33,12 +33,11 @@
   color: black;
 }
 
-.video-container {
-  z-index: -100;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+video {
+  left: 50%;
+  min-height: 140%;
+  min-width: 140%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

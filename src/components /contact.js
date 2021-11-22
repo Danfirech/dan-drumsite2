@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import Dan from "../Image/DanDrumHead.png";
+import Dan from "../Image/DanDrumHeadWalk.png";
 import "./styles/Contact.css";
 
 const Container = styled.div`
@@ -26,7 +26,7 @@ const Right = styled.div`
 const Image = styled.img`
   position: absolute;
   height: 80%;
-  padding-top: 120px;
+  padding-top: 50px;
   padding-left: 80px;
 `;
 

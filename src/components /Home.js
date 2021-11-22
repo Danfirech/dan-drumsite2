@@ -19,11 +19,9 @@ export const Home = () => {
             </div>
           </nav>
 
-          <div class="video-container">
-            <video autoPlay loop muted>
-              <source src={Video} type="video/mp4" />
-            </video>
-          </div>
+          <video class="video" autoPlay loop muted>
+            <source src={Video} type="video/mp4" />
+          </video>
         </div>
       </header>
     </div>
