@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/NavBar.css";
 import { Link } from "react-router-dom";
-import Video from "../video/video.mp4";
+import Video from "../video/DanielBlackandWhite.mp4";
 
 export const Home = () => {
   return (

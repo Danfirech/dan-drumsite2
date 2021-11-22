@@ -10,6 +10,7 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: #d3d3d3;
 `;
 
 const Left = styled.div`
