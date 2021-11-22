@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import Girl from "../Image/Girl.png";
+import Dan from "../Image/DanDrumHead.png";
 import "./styles/Contact.css";
 
 const Container = styled.div`
@@ -47,7 +47,7 @@ const contact = () => {
             </div>
           </Left>
           <Right>
-            <Image src={Girl} />
+            <Image src={Dan} />
           </Right>
         </Container>
       </div>
